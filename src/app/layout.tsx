@@ -1,20 +1,60 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const sohneVar = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Sohne.woff2",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/Sohne-BuchKursiv.woff2",
+      weight: "400",
+      style: "italic",
+    },
+  ],
+  variable: "--font-sohne",
+  display: "block",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const sohneMono = localFont({
+  src: [
+    {
+      path: "../../public/fonts/SohneMono-Buch.woff2",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/SohneMono-Extraleicht.woff2",
+      weight: "100",
+      style: "normal",
+    },
+  ],
+  variable: "--font-sohne-mono",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "VotoData — Inteligência Eleitoral em Escala",
+  description:
+    "Plataforma de APIs, modelos preditivos e dados eleitorais do Brasil. Dados do TSE processados para ciência política, partidos e consultorias.",
+  openGraph: {
+    title: "VotoData — Inteligência Eleitoral em Escala",
+    description:
+      "Plataforma de APIs, modelos preditivos e dados eleitorais do Brasil. Dados do TSE processados para ciência política, partidos e consultorias.",
+    images: ["/seo/dev_social.jpeg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "VotoData — Inteligência Eleitoral em Escala",
+    description:
+      "Plataforma de APIs, modelos preditivos e dados eleitorais do Brasil. Dados do TSE processados para ciência política, partidos e consultorias.",
+    images: ["/seo/dev_social.jpeg"],
+  },
+  icons: {
+    icon: "/seo/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -25,9 +65,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${sohneVar.variable} ${sohneMono.variable}`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

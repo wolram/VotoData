@@ -1,0 +1,227 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e8]: CampanhaIA
+      - navigation [ref=e9]:
+        - link "Arquitentura" [ref=e10] [cursor=pointer]:
+          - /url: "#plataforma"
+        - link "WhatsApp IA" [ref=e11] [cursor=pointer]:
+          - /url: "#whatsapp"
+        - link "Agentes Autônomos" [ref=e12] [cursor=pointer]:
+          - /url: "#skills"
+        - link "Resultados" [ref=e13] [cursor=pointer]:
+          - /url: "#resultados"
+        - link "Intelligence" [ref=e14] [cursor=pointer]:
+          - /url: "#insights"
+      - link "Acesso Exclusivo" [ref=e16] [cursor=pointer]:
+        - /url: "#contato"
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - img "Abstract Network Parallax Background" [ref=e20]
+      - generic [ref=e22]:
+        - generic [ref=e25]: Infraestrutura de Elite para 2026
+        - heading "A Inteligência que Elege Candidatos." [level=1] [ref=e26]:
+          - text: A Inteligência que
+          - text: Elege Candidatos.
+        - paragraph [ref=e27]: Domine a narrativa digital com agentes autônomos no WhatsApp. Escalabilidade extrema, retenção de dados blindada e atendimento premium ao seu eleitor.
+        - generic [ref=e28]:
+          - button "Agendar Demonstração" [ref=e29]
+          - button "Visualizar Arquitetura" [ref=e30]:
+            - generic [ref=e31]: Visualizar Arquitetura
+            - img [ref=e32]
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "A Anatomia de uma Campanha Guiada por Dados." [level=2] [ref=e37]:
+          - text: A Anatomia de uma Campanha
+          - text: Guiada por Dados.
+        - paragraph [ref=e38]: Enquanto campanhas amadoras lutam contra o tempo, a sua infraestrutura converte simpatizantes em militantes organizados 24 horas por dia.
+      - generic [ref=e39]:
+        - generic [ref=e42]:
+          - img [ref=e44]
+          - heading "Agentes RAG Especializados" [level=3] [ref=e56]
+          - paragraph [ref=e57]: Cada IA é treinada com o plano de governo, histórico e posicionamento do candidato. Respostas precisas, sem alucinações e em tempo real.
+        - generic [ref=e60]:
+          - img [ref=e62]
+          - heading "Engajamento Escalável (WhatsApp)" [level=3] [ref=e67]
+          - paragraph [ref=e68]: Substitua dezenas de voluntários por uma infraestrutura capaz de atender 100.000 eleitores simultaneamente de forma personalizada.
+        - generic [ref=e71]:
+          - img [ref=e73]
+          - heading "Segurança de Dados Rigorosa" [level=3] [ref=e75]
+          - paragraph [ref=e76]: Nenhum dado vaza. Utilizamos bancos de vetores isolados em infraestrutura fechada para garantir que a estratégia do partido seja blindada.
+        - generic [ref=e79]:
+          - img [ref=e81]
+          - heading "Skills de Captação e Conversão" [level=3] [ref=e83]
+          - paragraph [ref=e84]: Módulos prontos para arrecadação de fundos, convocação para eventos e mobilização para o dia da votação.
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e90]:
+          - img [ref=e91]
+          - text: Automação WABA
+        - heading "O seu candidato em escala absoluta." [level=2] [ref=e93]:
+          - text: O seu candidato em
+          - text: escala absoluta.
+        - generic [ref=e94]:
+          - paragraph [ref=e95]: O motor central processa centenas de milhares de conversas. Ele tira dúvidas sobre o plano de segurança, refuta fake news com base de dados homologada e solicita dados para cadastro voluntário.
+          - paragraph [ref=e96]: Nossa arquitetura conecta a API Oficial do WhatsApp diretamente aos LLMs mais avançados. Você adquire inteligência contextual sem depender do esforço manual de cabos eleitorais.
+        - button "Explorar Integrações" [ref=e97]
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e102]: C26
+          - generic [ref=e103]:
+            - heading "Agente Oficial do Candidato" [level=4] [ref=e104]
+            - paragraph [ref=e105]: Online
+        - generic [ref=e107]:
+          - paragraph [ref=e109]: Quais são as propostas do candidato para a educação básica este ano?
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - img [ref=e112]
+              - text: Recuperando de Vector DB...
+            - paragraph [ref=e124]: O candidato foca na reestruturação do FUNDEB e em parcerias público-privadas para modernizar a infraestrutura escolar. Deseja que eu envie o arquivo PDF do plano diretor da escola de tempo integral?
+          - paragraph [ref=e126]: Sim, e como faço para me voluntariar na campanha?
+          - generic [ref=e127]:
+            - paragraph [ref=e128]: Excelente iniciativa. Já carreguei o plano de educação. Para registrar seu voluntariado formalmente, informe, por favor, seu bairro de residência e e-mail.
+            - generic [ref=e129]: "[Skill Ativada: Captação de Lideranças]"
+    - generic [ref=e131]:
+      - generic [ref=e133]:
+        - heading "Ecossistema Modular." [level=2] [ref=e134]
+        - paragraph [ref=e135]:
+          - text: Diferente de chatbots burros de árvore de decisão, nossa plataforma utiliza
+          - emphasis [ref=e136]: Agentic Workflows
+          - text: . Você ativa e desativa
+          - strong [ref=e137]: Skills
+          - text: na sua Inteligência Artificial conforme a fase da campanha eleitoral exige.
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - img [ref=e142]
+            - generic [ref=e148]: Skill_V1
+          - heading "Captação de Lideranças" [level=3] [ref=e149]
+          - paragraph [ref=e150]: Agente encarregado de prospectar apoiadores e coletar dados de doadores e lideranças comunitárias de forma automática.
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - img [ref=e154]
+            - generic [ref=e157]: Skill_V2
+          - heading "Orquestração de Eventos" [level=3] [ref=e158]
+          - paragraph [ref=e159]: Skill de convocação. Mapeia eleitores por região para disparos focados em carreatas, comícios e agendas de rua do candidato.
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - img [ref=e163]
+            - generic [ref=e165]: Skill_V3
+          - heading "Termômetro Sentimental" [level=3] [ref=e166]
+          - paragraph [ref=e167]: Interage ativamente com os contatos para tabular intenção de voto e identificar pautas sensíveis (saúde vs. educação) em certas regiões.
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - img [ref=e171]
+            - generic [ref=e175]: Skill_V4
+          - heading "Gabinete do Ódio Inverso" [level=3] [ref=e176]
+          - paragraph [ref=e177]: Identificou fake news? O agente rastreia o tema através do RAG e aciona respostas padronizadas e verificadas instantaneamente.
+    - generic [ref=e179]:
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - generic [ref=e182]: R$ 8M+
+          - generic [ref=e183]: Economia Comprovada em Workforce
+        - generic [ref=e184]:
+          - generic [ref=e185]: 100%
+          - generic [ref=e186]: Compliance de Dados
+        - generic [ref=e187]:
+          - generic [ref=e188]: 40x
+          - generic [ref=e189]: Velocidade de Retenção
+        - generic [ref=e190]:
+          - generic [ref=e191]: 24/7
+          - generic [ref=e192]: Operação Ininterrupta
+      - generic [ref=e193]:
+        - heading "Base Técnica Homologada" [level=3] [ref=e194]
+        - generic [ref=e195]:
+          - generic [ref=e196]: PostgreSQL
+          - generic [ref=e197]: PGVector
+          - generic [ref=e198]: Ollama
+          - generic [ref=e199]: n8n Gateway
+          - generic [ref=e200]: WhatsApp Cloud
+    - generic [ref=e202]:
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - heading "Inteligência de Cenário." [level=2] [ref=e205]
+          - paragraph [ref=e206]: Pesquisas diretas, atualizações do cenário político-tecnológico e artigos sobre o ecossistema de campanhas em 2026.
+        - button "Ver repositório completo" [ref=e207]:
+          - text: Ver repositório completo
+          - img [ref=e208]
+      - generic [ref=e210]:
+        - generic [ref=e211] [cursor=pointer]:
+          - generic [ref=e212]:
+            - img [ref=e213]
+            - text: Pesquisa
+          - heading "O Peso do WhatsApp na Retenção de Votos do Sudeste" [level=3] [ref=e216]
+          - paragraph [ref=e217]: Análise quantitativa de como campanhas com automação escalável retiveram 32% mais intenções de voto.
+          - generic [ref=e218]:
+            - generic [ref=e219]: 12 Março, 2026
+            - generic [ref=e220]: Ler na íntegra
+        - generic [ref=e221] [cursor=pointer]:
+          - generic [ref=e222]:
+            - img [ref=e223]
+            - text: Blog Institucional
+          - heading "Agentes Autônomos vs. Chatbots Tradicionais" [level=3] [ref=e226]
+          - paragraph [ref=e227]: Por que árvores de decisão não elegem mais ninguém e como o RAG mudou a comunicação política.
+          - generic [ref=e228]:
+            - generic [ref=e229]: 05 Março, 2026
+            - generic [ref=e230]: Ler na íntegra
+        - generic [ref=e231] [cursor=pointer]:
+          - generic [ref=e232]:
+            - img [ref=e233]
+            - text: Notícias
+          - heading "TSE homologa novas regras para Inteligência Artificial" [level=3] [ref=e236]
+          - paragraph [ref=e237]: Nossa plataforma já nasce 100% aderente ao novo marco regulatório do Tribunal Superior Eleitoral.
+          - generic [ref=e238]:
+            - generic [ref=e239]: 28 Fevereiro, 2026
+            - generic [ref=e240]: Ler na íntegra
+  - contentinfo [ref=e241]:
+    - generic [ref=e242]:
+      - generic [ref=e243]:
+        - link "CampanhaIA" [ref=e244] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e247]: CampanhaIA
+        - paragraph [ref=e248]: Inteligência Artificial de nível enterprise para campanhas majoritárias e proporcionais nas Eleições Brasileiras. Automação, RAG e conversão ponta a ponta.
+        - generic [ref=e249]:
+          - img [ref=e250]
+          - text: Proteção Total de Dados (LGPD)
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - heading "Plataforma" [level=4] [ref=e255]
+          - list [ref=e256]:
+            - listitem [ref=e257]:
+              - link "Infraestrutura IA" [ref=e258] [cursor=pointer]:
+                - /url: "#plataforma"
+            - listitem [ref=e259]:
+              - link "WABA Integrado" [ref=e260] [cursor=pointer]:
+                - /url: "#whatsapp"
+            - listitem [ref=e261]:
+              - link "Agentes Modulares" [ref=e262] [cursor=pointer]:
+                - /url: "#skills"
+            - listitem [ref=e263]:
+              - link "Compliance LGPD" [ref=e264] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e265]:
+          - heading "Consultoria" [level=4] [ref=e266]
+          - list [ref=e267]:
+            - listitem [ref=e268]:
+              - link "O Negócio" [ref=e269] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e270]:
+              - link "Cases (Privado)" [ref=e271] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e272]:
+              - link "Agendamento de Setup" [ref=e273] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e274]:
+              - link "Contato Comercial" [ref=e275] [cursor=pointer]:
+                - /url: "#"
+    - generic [ref=e276]:
+      - paragraph [ref=e277]: © 2026 MSS Consultoria. Todos os direitos reservados.
+      - generic [ref=e278]:
+        - link "Termos Privados" [ref=e279] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e280]: "|"
+        - link "Política de Governança" [ref=e281] [cursor=pointer]:
+          - /url: "#"
+  - button "Open Next.js Dev Tools" [ref=e287] [cursor=pointer]:
+    - img [ref=e288]
+  - alert [ref=e291]

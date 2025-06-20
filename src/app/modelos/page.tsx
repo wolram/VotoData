@@ -1,0 +1,32 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { Nav } from "@/components/Nav";
+import { Footer } from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Modelos Preditivos — VotoData",
+};
+
+export default function ModelosPage() {
+  return (
+    <main className="page-grid">
+      <Nav />
+      <article className="col-span-full pt-[80px] pb-20 max-w-[720px]">
+        <div className="section-label mb-6">
+          <span className="section-label-slash">/</span>
+          Modelos
+        </div>
+        <h1 className="text-section-heading">Modelos Preditivos</h1>
+        <p className="text-body mt-6">
+          Algoritmos de machine learning treinados com dados eleitorais
+          históricos. Predição de abstenção, segundo turno e transferência de
+          votos.
+        </p>
+        <Link href="/contato" className="cta-link mt-8 inline-block">
+          Solicitar demonstração
+        </Link>
+      </article>
+      <Footer />
+    </main>
+  );
+}

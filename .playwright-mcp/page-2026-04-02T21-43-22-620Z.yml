@@ -1,0 +1,651 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - navigation [ref=e5]:
+        - generic [ref=e6]:
+          - link "Home" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img [ref=e8]
+          - link "[B] Blog" [ref=e10] [cursor=pointer]:
+            - /url: /blog
+            - generic [ref=e11]: "[B]"
+            - text: Blog
+          - link "[E] Events" [ref=e12] [cursor=pointer]:
+            - /url: /events
+            - generic [ref=e13]: "[E]"
+            - text: Events
+          - link "[D] Docs" [ref=e14] [cursor=pointer]:
+            - /url: https://docs.stripe.com
+            - generic [ref=e15]: "[D]"
+            - text: Docs
+          - link "[Y] Youtube" [ref=e16] [cursor=pointer]:
+            - /url: https://www.youtube.com/stripedevelopers
+            - generic [ref=e17]: "[Y]"
+            - text: Youtube
+          - link "[G] Github" [ref=e18] [cursor=pointer]:
+            - /url: https://github.com/stripe
+            - generic [ref=e19]: "[G]"
+            - text: Github
+          - link "[M] Meetups" [ref=e20] [cursor=pointer]:
+            - /url: https://www.meetup.com/pro/stripe
+            - generic [ref=e21]: "[M]"
+            - text: Meetups
+        - button "[ C ] Console" [ref=e22] [cursor=pointer]:
+          - text: "["
+          - generic [ref=e23]: C
+          - text: "] Console"
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - img [ref=e26]
+          - img [ref=e28]
+          - img [ref=e30]
+          - img [ref=e32]
+        - generic [ref=e34]:
+          - text: Welcome
+          - generic [ref=e35]:
+            - text: to
+            - text: Stripe
+          - text: Dot
+          - img [ref=e38]
+        - heading "stripe.dev - Stripe Developer hub" [level=1] [ref=e62]
+        - paragraph [ref=e63]: Learn how to build web and mobile applications to accept payments, send payouts, and manage your business online with Stripe.
+        - img [ref=e67]
+        - generic [ref=e72]:
+          - img [ref=e73]
+          - img [ref=e75]
+          - img [ref=e77]
+          - img [ref=e79]
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: /
+            - text: Featured Post
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - button "Edit in Console" [ref=e89] [cursor=pointer]:
+                  - img [ref=e90]
+                - generic: "[ Fig. 1 ]"
+                - link "Open art controls" [ref=e94] [cursor=pointer]:
+                  - /url: /art/index.html?config=%7B%22ampX%22:2.615554773919423,%22ampY%22:0.2510522295379551,%22aspectRatio%22:4.846182045765707,%22axis%22:%22xy%22,%22lump%22:0.012257571935580414,%22count%22:30,%22freq%22:3.0367582350683,%22isDial%22:false,%22isLineart%22:true,%22isRing%22:false,%22isSpiral%22:false,%22left%22:0,%22mouseX%22:0.5011574074074074,%22mouseY%22:0.482962962962963,%22noise%22:0,%22scale%22:3.7,%22top%22:0,%22twirl%22:0.1,%22twist%22:10.44243260386455,%22velocity%22:1,%22shape%22:%22rect%22%7D
+                  - img [ref=e95]
+              - generic [ref=e99]:
+                - img [ref=e101]
+                - generic [ref=e295]:
+                  - img [ref=e296]
+                  - generic [ref=e299]: 10x
+            - generic [ref=e302]:
+              - link "Provision a production-ready dev stack from your terminal Provision hosting, databases, auth, analytics, AI and other dev tools from the Stripe CLI. Stripe Projects creates real resources in your own... CLI Developer Productivity" [ref=e303] [cursor=pointer]:
+                - /url: /blog/production-ready-dev-stack-from-terminal
+                - generic [ref=e305]:
+                  - text: Provision a production-ready dev stack from your terminal
+                  - img [ref=e307]
+                - generic [ref=e315]:
+                  - text: Provision hosting, databases, auth, analytics, AI and other dev tools from the Stripe CLI. Stripe Projects creates real resources in your own...
+                  - generic [ref=e316]:
+                    - generic [ref=e317]: CLI
+                    - generic [ref=e318]: Developer Productivity
+              - link "More posts" [ref=e319] [cursor=pointer]:
+                - /url: /blog
+        - generic [ref=e320]:
+          - generic [ref=e322]:
+            - generic [ref=e323]: /
+            - text: Featured Video
+          - generic [ref=e324]:
+            - generic [ref=e325]:
+              - generic [ref=e326]:
+                - button "Edit in Console" [ref=e327] [cursor=pointer]:
+                  - img [ref=e328]
+                - generic: "[ Fig. 2 ]"
+                - link "Open art controls" [ref=e332] [cursor=pointer]:
+                  - /url: /art/index.html?config=%7B%22ampX%22:1,%22ampY%22:1,%22aspectRatio%22:1,%22axis%22:%22xy%22,%22lump%22:0,%22count%22:106,%22freq%22:1,%22isDial%22:false,%22isLineart%22:false,%22isRing%22:true,%22isSpiral%22:false,%22isBalls%22:false,%22isMatrix%22:false,%22left%22:10,%22kaleids%22:6.430000000000043,%22mouseX%22:0.8674768518518519,%22mouseY%22:0.58,%22noise%22:0,%22scale%22:0.26200000000000556,%22top%22:-40,%22twirl%22:0.5,%22twist%22:0,%22velocity%22:0.37899999999999945,%22shape%22:%22rect%22%7D
+                  - img [ref=e333]
+              - generic [ref=e337]:
+                - img [ref=e339]
+                - generic [ref=e533]:
+                  - img [ref=e534]
+                  - generic [ref=e537]: 10x
+            - generic [ref=e540]:
+              - link "Good vibes, smooth payments. Tailoring Stripe to any UI In this Dublin meetup talk, Stripe Developer Advocate Anna Spysz demonstrates how to integrate and customize the Stripe checkout flow into any... Payments" [ref=e541] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=1kBFmOufiNE
+                - generic [ref=e543]:
+                  - text: Good vibes, smooth payments. Tailoring Stripe to any UI
+                  - img [ref=e545]
+                - generic [ref=e553]:
+                  - text: In this Dublin meetup talk, Stripe Developer Advocate Anna Spysz demonstrates how to integrate and customize the Stripe checkout flow into any...
+                  - generic [ref=e555]: Payments
+              - link "More videos" [ref=e556] [cursor=pointer]:
+                - /url: https://www.youtube.com/@StripeDev
+      - generic [ref=e557]:
+        - generic [ref=e559]:
+          - generic [ref=e560]: /
+          - text: Statistics
+        - generic [ref=e562]:
+          - generic [ref=e563]:
+            - text: "YouTube watch time hours:"
+            - generic [ref=e564]: 380,000+
+          - generic [ref=e565]:
+            - text: "Meetup group members:"
+            - generic [ref=e566]: 4400+
+          - generic [ref=e567]:
+            - text: Stripe Developer Community
+            - generic [ref=e568]: 5 million+
+          - generic [ref=e569]:
+            - text: "YouTube watch time hours:"
+            - generic [ref=e570]: 380,000+
+          - generic [ref=e571]:
+            - text: "Meetup group members:"
+            - generic [ref=e572]: 4400+
+          - generic [ref=e573]:
+            - text: Stripe Developer Community
+            - generic [ref=e574]: 5 million+
+          - generic [ref=e575]:
+            - text: "YouTube watch time hours:"
+            - generic [ref=e576]: 380,000+
+          - generic [ref=e577]:
+            - text: "Meetup group members:"
+            - generic [ref=e578]: 4400+
+          - generic [ref=e579]:
+            - text: Stripe Developer Community
+            - generic [ref=e580]: 5 million+
+      - generic [ref=e581]:
+        - heading "Feed (20)" [level=2] [ref=e582]:
+          - text: Feed
+          - superscript [ref=e583]: (20)
+        - generic [ref=e584]:
+          - generic [ref=e585]:
+            - generic [ref=e586]:
+              - generic [ref=e587]: /
+              - text: Filter
+            - button "Clear Filters" [ref=e589] [cursor=pointer]
+          - generic [ref=e590]:
+            - button "Folder Icon Type" [expanded] [ref=e591] [cursor=pointer]:
+              - img [ref=e592]
+              - img "Folder Icon" [ref=e594]
+              - generic [ref=e596]: Type
+            - list [ref=e600]:
+              - listitem [ref=e601]:
+                - button "Checkbox icon event (5)" [ref=e602] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e603]
+                  - generic [ref=e605]:
+                    - text: event
+                    - generic [ref=e606]: (5)
+              - listitem [ref=e607]:
+                - button "Checkbox icon video (5)" [ref=e608] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e609]
+                  - generic [ref=e611]:
+                    - text: video
+                    - generic [ref=e612]: (5)
+              - listitem [ref=e613]:
+                - button "Checkbox icon Blog (10)" [ref=e614] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e615]
+                  - generic [ref=e617]:
+                    - text: Blog
+                    - generic [ref=e618]: (10)
+          - generic [ref=e619]:
+            - button "Folder Icon Topic" [expanded] [ref=e620] [cursor=pointer]:
+              - img [ref=e621]
+              - img "Folder Icon" [ref=e623]
+              - generic [ref=e625]: Topic
+            - list [ref=e629]:
+              - listitem [ref=e630]:
+                - button "Checkbox icon Agentic (4)" [ref=e631] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e632]
+                  - generic [ref=e634]:
+                    - text: Agentic
+                    - generic [ref=e635]: (4)
+              - listitem [ref=e636]:
+                - button "Checkbox icon AI (3)" [ref=e637] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e638]
+                  - generic [ref=e640]:
+                    - text: AI
+                    - generic [ref=e641]: (3)
+              - listitem [ref=e642]:
+                - button "Checkbox icon Best Practices (2)" [ref=e643] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e644]
+                  - generic [ref=e646]:
+                    - text: Best Practices
+                    - generic [ref=e647]: (2)
+              - listitem [ref=e648]:
+                - button "Checkbox icon CLI (1)" [ref=e649] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e650]
+                  - generic [ref=e652]:
+                    - text: CLI
+                    - generic [ref=e653]: (1)
+              - listitem [ref=e654]:
+                - button "Checkbox icon Crypto (1)" [ref=e655] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e656]
+                  - generic [ref=e658]:
+                    - text: Crypto
+                    - generic [ref=e659]: (1)
+              - listitem [ref=e660]:
+                - button "Checkbox icon Developer Productivity (2)" [ref=e661] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e662]
+                  - generic [ref=e664]:
+                    - text: Developer Productivity
+                    - generic [ref=e665]: (2)
+              - listitem [ref=e666]:
+                - button "Checkbox icon Engineering (1)" [ref=e667] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e668]
+                  - generic [ref=e670]:
+                    - text: Engineering
+                    - generic [ref=e671]: (1)
+              - listitem [ref=e672]:
+                - button "Checkbox icon Event Destinations (1)" [ref=e673] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e674]
+                  - generic [ref=e676]:
+                    - text: Event Destinations
+                    - generic [ref=e677]: (1)
+              - listitem [ref=e678]:
+                - button "Checkbox icon Getting Started (1)" [ref=e679] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e680]
+                  - generic [ref=e682]:
+                    - text: Getting Started
+                    - generic [ref=e683]: (1)
+              - listitem [ref=e684]:
+                - button "Checkbox icon LLMs (1)" [ref=e685] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e686]
+                  - generic [ref=e688]:
+                    - text: LLMs
+                    - generic [ref=e689]: (1)
+              - listitem [ref=e690]:
+                - button "Checkbox icon Meetup (1)" [ref=e691] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e692]
+                  - generic [ref=e694]:
+                    - text: Meetup
+                    - generic [ref=e695]: (1)
+              - listitem [ref=e696]:
+                - button "Checkbox icon Partners (2)" [ref=e697] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e698]
+                  - generic [ref=e700]:
+                    - text: Partners
+                    - generic [ref=e701]: (2)
+              - listitem [ref=e702]:
+                - button "Checkbox icon Payments (5)" [ref=e703] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e704]
+                  - generic [ref=e706]:
+                    - text: Payments
+                    - generic [ref=e707]: (5)
+              - listitem [ref=e708]:
+                - button "Checkbox icon Tour (3)" [ref=e709] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e710]
+                  - generic [ref=e712]:
+                    - text: Tour
+                    - generic [ref=e713]: (3)
+              - listitem [ref=e714]:
+                - button "Checkbox icon Workflows (2)" [ref=e715] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e716]
+                  - generic [ref=e718]:
+                    - text: Workflows
+                    - generic [ref=e719]: (2)
+              - listitem [ref=e720]:
+                - button "Checkbox icon Workshop (1)" [ref=e721] [cursor=pointer]:
+                  - img "Checkbox icon" [ref=e722]
+                  - generic [ref=e724]:
+                    - text: Workshop
+                    - generic [ref=e725]: (1)
+          - generic [ref=e726]:
+            - generic [ref=e727]:
+              - button "Edit in Console" [ref=e728] [cursor=pointer]:
+                - img [ref=e729]
+              - generic: "[ Fig. 3 ]"
+              - link "Open art controls" [ref=e733] [cursor=pointer]:
+                - /url: /art/index.html?config=%7B%22ampX%22:1,%22ampY%22:1,%22aspectRatio%22:1.8009999999999993,%22axis%22:%22x%22,%22lump%22:0.476999999999999,%22count%22:70,%22freq%22:1,%22isDial%22:false,%22isLineart%22:false,%22isRing%22:false,%22isSpiral%22:false,%22left%22:0,%22mouseX%22:0.7760416666666666,%22mouseY%22:0.35278514588859416,%22noise%22:0,%22scale%22:1.7,%22top%22:0,%22twirl%22:0.1,%22twist%22:6.710999999999972,%22velocity%22:1,%22shape%22:%22ellipse%22%7D
+                - img [ref=e734]
+            - generic [ref=e738]:
+              - img [ref=e740]
+              - generic [ref=e934]:
+                - img [ref=e935]
+                - generic [ref=e938]: 10x
+        - generic [ref=e941]:
+          - generic [ref=e942]:
+            - generic [ref=e943]:
+              - generic [ref=e944]: /
+              - text: Date
+            - generic [ref=e945]:
+              - generic [ref=e946]: /
+              - text: Name
+            - generic [ref=e947]:
+              - generic [ref=e948]: /
+              - text: Type
+          - list [ref=e949]:
+            - listitem [ref=e950]:
+              - 'button "2026.6.30 Stripe Tour: Berlin event" [ref=e951] [cursor=pointer]':
+                - generic [ref=e954]: 2026.6.30
+                - generic [ref=e955]: "Stripe Tour: Berlin"
+                - generic [ref=e956]: event
+                - img [ref=e957]
+            - listitem [ref=e958]:
+              - 'button "2026.6.16 Stripe Tour: Paris event" [ref=e959] [cursor=pointer]':
+                - generic [ref=e962]: 2026.6.16
+                - generic [ref=e963]: "Stripe Tour: Paris"
+                - generic [ref=e964]: event
+                - img [ref=e965]
+            - listitem [ref=e966]:
+              - 'button "2026.6.10 Stripe Tour: London event" [ref=e967] [cursor=pointer]':
+                - generic [ref=e970]: 2026.6.10
+                - generic [ref=e971]: "Stripe Tour: London"
+                - generic [ref=e972]: event
+                - img [ref=e973]
+            - listitem [ref=e974]:
+              - button "2026.4.14 Agentic commerce developer workshop - London event" [ref=e975] [cursor=pointer]:
+                - generic [ref=e978]: 2026.4.14
+                - generic [ref=e979]: Agentic commerce developer workshop - London
+                - generic [ref=e980]: event
+                - img [ref=e981]
+            - listitem [ref=e982]:
+              - button "2026.4.08 Meetup Stripe Paris - Avril 2026 event" [ref=e983] [cursor=pointer]:
+                - generic [ref=e986]: 2026.4.08
+                - generic [ref=e987]: Meetup Stripe Paris - Avril 2026
+                - generic [ref=e988]: event
+                - img [ref=e989]
+            - listitem [ref=e990]:
+              - button "2026.3.31 Good vibes, smooth payments. Tailoring Stripe to any UI video" [ref=e991] [cursor=pointer]:
+                - generic [ref=e994]: 2026.3.31
+                - generic [ref=e995]: Good vibes, smooth payments. Tailoring Stripe to any UI
+                - generic [ref=e996]: video
+                - img [ref=e997]
+            - listitem [ref=e998]:
+              - button "2026.3.31 Bringing 90s vibes to Stripe video" [ref=e999] [cursor=pointer]:
+                - generic [ref=e1002]: 2026.3.31
+                - generic [ref=e1003]: Bringing 90s vibes to Stripe
+                - generic [ref=e1004]: video
+                - img [ref=e1005]
+            - listitem [ref=e1006]:
+              - button "2026.3.26 Provision a production-ready dev stack from your terminal Blog" [ref=e1007] [cursor=pointer]:
+                - generic [ref=e1010]: 2026.3.26
+                - generic [ref=e1011]: Provision a production-ready dev stack from your terminal
+                - generic [ref=e1012]: Blog
+                - img [ref=e1013]
+            - listitem [ref=e1014]:
+              - button "2026.3.25 How to build a payments platform....and why you should never do it video" [ref=e1015] [cursor=pointer]:
+                - generic [ref=e1018]: 2026.3.25
+                - generic [ref=e1019]: How to build a payments platform....and why you should never do it
+                - generic [ref=e1020]: video
+                - img [ref=e1021]
+            - listitem [ref=e1022]:
+              - button "2026.3.23 The future of agentic payments video" [ref=e1023] [cursor=pointer]:
+                - generic [ref=e1026]: 2026.3.23
+                - generic [ref=e1027]: The future of agentic payments
+                - generic [ref=e1028]: video
+                - img [ref=e1029]
+            - listitem [ref=e1030]:
+              - 'button "2026.3.07 ACP or UCP: Which agentic commerce protocol is right for you? video" [ref=e1031] [cursor=pointer]':
+                - generic [ref=e1034]: 2026.3.07
+                - generic [ref=e1035]: "ACP or UCP: Which agentic commerce protocol is right for you?"
+                - generic [ref=e1036]: video
+                - img [ref=e1037]
+            - listitem [ref=e1038]:
+              - button "2026.3.06 Designing flexible payment flows with Checkout Session Blog" [ref=e1039] [cursor=pointer]:
+                - generic [ref=e1042]: 2026.3.06
+                - generic [ref=e1043]: Designing flexible payment flows with Checkout Session
+                - generic [ref=e1044]: Blog
+                - img [ref=e1045]
+            - listitem [ref=e1046]:
+              - button "2026.2.19 Building a mental model for Stripe payments Blog" [ref=e1047] [cursor=pointer]:
+                - generic [ref=e1050]: 2026.2.19
+                - generic [ref=e1051]: Building a mental model for Stripe payments
+                - generic [ref=e1052]: Blog
+                - img [ref=e1053]
+            - listitem [ref=e1054]:
+              - 'button "2026.2.09 Minions: Stripe’s one-shot, end-to-end coding agents Blog" [ref=e1055] [cursor=pointer]':
+                - generic [ref=e1058]: 2026.2.09
+                - generic [ref=e1059]: "Minions: Stripe’s one-shot, end-to-end coding agents"
+                - generic [ref=e1060]: Blog
+                - img [ref=e1061]
+            - listitem [ref=e1062]:
+              - button "2026.1.27 Configuring Stripe using Terraform and AI agents Blog" [ref=e1063] [cursor=pointer]:
+                - generic [ref=e1066]: 2026.1.27
+                - generic [ref=e1067]: Configuring Stripe using Terraform and AI agents
+                - generic [ref=e1068]: Blog
+                - img [ref=e1069]
+            - listitem [ref=e1070]:
+              - 'button "2025.12.10 Versioning in Stripe Workflows: Ship workflow changes with confidence Blog" [ref=e1071] [cursor=pointer]':
+                - generic [ref=e1074]: 2025.12.10
+                - generic [ref=e1075]: "Versioning in Stripe Workflows: Ship workflow changes with confidence"
+                - generic [ref=e1076]: Blog
+                - img [ref=e1077]
+            - listitem [ref=e1078]:
+              - 'button "2025.11.25 Stablecoin payments for Stripe developers: zero crypto knowledge required Blog" [ref=e1079] [cursor=pointer]':
+                - generic [ref=e1082]: 2025.11.25
+                - generic [ref=e1083]: "Stablecoin payments for Stripe developers: zero crypto knowledge required"
+                - generic [ref=e1084]: Blog
+                - img [ref=e1085]
+            - listitem [ref=e1086]:
+              - 'button "2025.9.11 Workflows: Automate compliance safeguards by flagging transactions Blog" [ref=e1087] [cursor=pointer]':
+                - generic [ref=e1090]: 2025.9.11
+                - generic [ref=e1091]: "Workflows: Automate compliance safeguards by flagging transactions"
+                - generic [ref=e1092]: Blog
+                - img [ref=e1093]
+            - listitem [ref=e1094]:
+              - button "2025.8.06 Building financial operations agents with Hypermode and Stripe Blog" [ref=e1095] [cursor=pointer]:
+                - generic [ref=e1098]: 2025.8.06
+                - generic [ref=e1099]: Building financial operations agents with Hypermode and Stripe
+                - generic [ref=e1100]: Blog
+                - img [ref=e1101]
+            - listitem [ref=e1102]:
+              - 'button "2025.7.03 Stay within limits: API rate-limit-friendly pattern for Stripe webhooks Blog" [ref=e1103] [cursor=pointer]':
+                - generic [ref=e1106]: 2025.7.03
+                - generic [ref=e1107]: "Stay within limits: API rate-limit-friendly pattern for Stripe webhooks"
+                - generic [ref=e1108]: Blog
+                - img [ref=e1109]
+          - generic [ref=e1110]:
+            - link "More posts" [ref=e1111] [cursor=pointer]:
+              - /url: /blog
+            - link "More videos" [ref=e1112] [cursor=pointer]:
+              - /url: https://www.youtube.com/@StripeDev
+            - link "More events" [ref=e1113] [cursor=pointer]:
+              - /url: /events
+      - generic [ref=e1114]:
+        - heading "Get help (4)" [level=2] [ref=e1115]:
+          - text: Get help
+          - superscript [ref=e1116]: (4)
+        - generic [ref=e1117]:
+          - generic [ref=e1119]:
+            - generic [ref=e1120]: /
+            - text: Changelog
+          - paragraph [ref=e1121]: View the Stripe Changelog for the latest changes to the Stripe API, SDKs, and products.
+          - generic [ref=e1123]: "Example:"
+          - link "View the Changelog" [ref=e1125] [cursor=pointer]:
+            - /url: https://stripe.com/blog/changelog
+        - generic [ref=e1126]:
+          - generic [ref=e1128]:
+            - generic [ref=e1129]: /
+            - text: Stripe Developer Meetups
+          - paragraph [ref=e1130]: Meetups feature technical presentations from Stripes and networking with our community.
+          - generic [ref=e1132]: "Example:"
+          - link "Join a local Meetup" [ref=e1134] [cursor=pointer]:
+            - /url: https://www.meetup.com/pro/stripe/
+        - generic [ref=e1135]:
+          - generic [ref=e1137]:
+            - generic [ref=e1138]: /
+            - text: Discord
+          - paragraph [ref=e1139]: The Stripe Discord is good for getting quick answers from the community.
+          - generic [ref=e1141]: "Example:"
+          - link "Visit Discord" [ref=e1143] [cursor=pointer]:
+            - /url: https://discord.com/invite/stripe
+        - generic [ref=e1144]:
+          - generic [ref=e1146]:
+            - generic [ref=e1147]: /
+            - text: Support
+          - paragraph [ref=e1148]: For questions regarding your account, you should contact support.
+          - generic [ref=e1150]: "Example:"
+          - link "Contact support" [ref=e1152] [cursor=pointer]:
+            - /url: https://support.stripe.com
+      - generic [ref=e1153]:
+        - heading "Router (12)" [level=2] [ref=e1154]:
+          - text: Router
+          - superscript [ref=e1155]: (12)
+        - generic [ref=e1156]:
+          - generic [ref=e1158]:
+            - generic [ref=e1159]: /
+            - text: Info
+          - generic [ref=e1160]:
+            - generic [ref=e1161]:
+              - button "Edit in Console" [ref=e1162] [cursor=pointer]:
+                - img [ref=e1163]
+              - generic: "[ Fig. 42 ]"
+              - link "Open art controls" [ref=e1167] [cursor=pointer]:
+                - /url: /art/index.html?config=%7B%22ampX%22:1,%22ampY%22:1,%22aspectRatio%22:1,%22axis%22:%22xy%22,%22lump%22:0.11699999999999999,%22count%22:100,%22freq%22:1,%22isDial%22:true,%22isLineart%22:false,%22isRing%22:false,%22isSpiral%22:false,%22left%22:0,%22mouseX%22:0.4832175925925926,%22mouseY%22:0.59391771019678,%22noise%22:22.2,%22scale%22:1.149,%22top%22:0,%22twirl%22:0,%22twist%22:0,%22velocity%22:1,%22shape%22:%22ellipse%22%7D
+                - img [ref=e1168]
+            - generic [ref=e1172]:
+              - img [ref=e1174]
+              - generic [ref=e1368]:
+                - img [ref=e1369]
+                - generic [ref=e1372]: 10x
+        - generic [ref=e1375]:
+          - generic [ref=e1377]:
+            - generic [ref=e1378]: /
+            - text: Topics
+          - generic [ref=e1379]:
+            - heading "Accept a payment" [level=3] [ref=e1380]
+            - paragraph [ref=e1381]: Build a payment form or use a prebuilt checkout page to start accepting online payments.
+            - link "Start accepting payments" [ref=e1382] [cursor=pointer]:
+              - /url: https://docs.stripe.com/payments
+            - list [ref=e1383]:
+              - listitem [ref=e1384]:
+                - link "Get started with Payments" [ref=e1385] [cursor=pointer]:
+                  - /url: https://docs.stripe.com/payments/accept-a-payment
+                  - generic [ref=e1386]: Get started with Payments
+                  - img [ref=e1388]
+              - listitem [ref=e1390]:
+                - link "Explore the Payments API Reference" [ref=e1391] [cursor=pointer]:
+                  - /url: https://docs.stripe.com/api
+                  - generic [ref=e1392]: Explore the Payments API Reference
+                  - img [ref=e1394]
+              - listitem [ref=e1396]:
+                - link "Learn More about Payments" [ref=e1397] [cursor=pointer]:
+                  - /url: https://stripe.com/payments
+                  - generic [ref=e1398]: Learn More about Payments
+                  - img [ref=e1400]
+          - generic [ref=e1402]:
+            - heading "Ship a Stripe App" [level=3] [ref=e1403]
+            - paragraph [ref=e1404]: Learn how to ship a Stripe app to production and start accepting payments.
+            - link "Start building" [ref=e1405] [cursor=pointer]:
+              - /url: https://docs.stripe.com/stripe-apps
+            - list [ref=e1406]:
+              - listitem [ref=e1407]:
+                - link "Get started with Stripe Apps" [ref=e1408] [cursor=pointer]:
+                  - /url: https://docs.stripe.com/stripe-apps/create-app
+                  - generic [ref=e1409]: Get started with Stripe Apps
+                  - img [ref=e1411]
+              - listitem [ref=e1413]:
+                - link "Explore the Stripe Apps reference" [ref=e1414] [cursor=pointer]:
+                  - /url: https://docs.stripe.com/stripe-apps#reference
+                  - generic [ref=e1415]: Explore the Stripe Apps reference
+                  - img [ref=e1417]
+              - listitem [ref=e1419]:
+                - link "Learn more about Stripe Apps" [ref=e1420] [cursor=pointer]:
+                  - /url: https://stripe.com/apps
+                  - generic [ref=e1421]: Learn more about Stripe Apps
+                  - img [ref=e1423]
+          - generic [ref=e1425]:
+            - heading "Build a platform" [level=3] [ref=e1426]
+            - paragraph [ref=e1427]: Create a platform that connects buyers and sellers and takes a fee on each transaction.
+            - link "Create a platform" [ref=e1428] [cursor=pointer]:
+              - /url: https://docs.stripe.com/connect
+            - list [ref=e1429]:
+              - listitem [ref=e1430]:
+                - link "Get started with Connect" [ref=e1431] [cursor=pointer]:
+                  - /url: https://docs.stripe.com/connect/design-an-integration
+                  - generic [ref=e1432]: Get started with Connect
+                  - img [ref=e1434]
+              - listitem [ref=e1436]:
+                - link "Explore the Connect ecosystem" [ref=e1437] [cursor=pointer]:
+                  - /url: https://docs.stripe.com/connect
+                  - generic [ref=e1438]: Explore the Connect ecosystem
+                  - img [ref=e1440]
+              - listitem [ref=e1442]:
+                - link "Learn more about Connect" [ref=e1443] [cursor=pointer]:
+                  - /url: https://stripe.com/connect
+                  - generic [ref=e1444]: Learn more about Connect
+                  - img [ref=e1446]
+          - generic [ref=e1448]:
+            - heading "Upgrade your Stripe SDK" [level=3] [ref=e1449]
+            - paragraph [ref=e1450]: Learn about the latest features and improvements in the Stripe SDK.
+            - link "See the latest upgrades" [ref=e1451] [cursor=pointer]:
+              - /url: https://docs.stripe.com/upgrades
+            - list [ref=e1452]:
+              - listitem [ref=e1453]:
+                - link "Learn about Stripe API upgrades" [ref=e1454] [cursor=pointer]:
+                  - /url: https://docs.stripe.com/upgrades
+                  - generic [ref=e1455]: Learn about Stripe API upgrades
+                  - img [ref=e1457]
+              - listitem [ref=e1459]:
+                - link "Examine Stripe API versions" [ref=e1460] [cursor=pointer]:
+                  - /url: https://docs.stripe.com/upgrades#api-versions
+                  - generic [ref=e1461]: Examine Stripe API versions
+                  - img [ref=e1463]
+              - listitem [ref=e1465]:
+                - link "View the Stripe product changelog" [ref=e1466] [cursor=pointer]:
+                  - /url: https://stripe.com/blog/changelog
+                  - generic [ref=e1467]: View the Stripe product changelog
+                  - img [ref=e1469]
+      - generic [ref=e1471]:
+        - generic [ref=e1472]:
+          - img [ref=e1473]
+          - img [ref=e1475]
+          - img [ref=e1477]
+          - img [ref=e1479]
+          - img [ref=e1481]
+          - img [ref=e1483]
+          - img [ref=e1485]
+          - img [ref=e1487]
+          - img [ref=e1489]
+        - generic [ref=e1491]:
+          - generic [ref=e1492]:
+            - generic [ref=e1493]: /
+            - text: Docs
+          - paragraph [ref=e1494]: Explore our guides and examples to integrate Stripe.
+          - link "Learn more" [ref=e1495] [cursor=pointer]:
+            - /url: https://docs.stripe.com
+        - generic [ref=e1496]:
+          - generic [ref=e1497]:
+            - generic [ref=e1498]: /
+            - text: Social
+          - generic [ref=e1499]:
+            - link "Youtube" [ref=e1500] [cursor=pointer]:
+              - /url: https://www.youtube.com/stripedevelopers
+            - link "Twitter/X" [ref=e1501] [cursor=pointer]:
+              - /url: https://x.com/stripedev
+            - link "Discord" [ref=e1502] [cursor=pointer]:
+              - /url: https://discord.com/channels/841573134531821608/841573134531821612
+          - generic [ref=e1503]:
+            - generic [ref=e1504]: /
+            - text: Resources
+          - generic [ref=e1505]:
+            - link "Docs" [ref=e1506] [cursor=pointer]:
+              - /url: https://docs.stripe.com
+            - link "Developer Meetups" [ref=e1507] [cursor=pointer]:
+              - /url: https://www.meetup.com/pro/stripe/
+        - generic [ref=e1508]:
+          - img [ref=e1509]
+          - img [ref=e1511]
+          - img [ref=e1513]
+          - img [ref=e1515]
+          - img [ref=e1517]
+          - img [ref=e1519]
+          - img [ref=e1521]
+          - img [ref=e1523]
+          - img [ref=e1525]
+        - generic [ref=e1527]:
+          - img [ref=e1530]
+          - generic [ref=e1535]: © 2026 Stripe, Inc.
+        - generic [ref=e1536]:
+          - link "Privacy" [ref=e1537] [cursor=pointer]:
+            - /url: https://stripe.com/privacy
+          - link "Legal" [ref=e1538] [cursor=pointer]:
+            - /url: https://stripe.com/legal
+          - link "Stripe.com" [ref=e1539] [cursor=pointer]:
+            - /url: https://stripe.com
+        - generic [ref=e1540]:
+          - img [ref=e1541]
+          - img [ref=e1543]
+          - img [ref=e1545]
+          - img [ref=e1547]
+          - img [ref=e1549]
+          - img [ref=e1551]
+          - img [ref=e1553]
+          - img [ref=e1555]
+          - img [ref=e1557]
+  - alert [ref=e1560]

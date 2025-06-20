@@ -1,0 +1,180 @@
+- main [ref=e4]:
+  - generic [ref=e7]:
+    - link "MiroFish" [ref=e8] [cursor=pointer]:
+      - /url: /mirofish-demo/
+      - img "MiroFish" [ref=e9]
+    - navigation [ref=e10]:
+      - link "Get Started" [ref=e11] [cursor=pointer]:
+        - /url: "#hero"
+      - link "Videos" [ref=e12] [cursor=pointer]:
+        - /url: "#demo-video"
+      - link "Introduction" [ref=e13] [cursor=pointer]:
+        - /url: "#features"
+      - link "About Us" [ref=e14] [cursor=pointer]:
+        - /url: "#philosophy"
+    - generic [ref=e15]:
+      - link "Docs" [ref=e16] [cursor=pointer]:
+        - /url: https://deepwiki.com/666ghj/MiroFish
+        - img [ref=e17]
+        - text: Docs
+      - link "GitHub" [ref=e19] [cursor=pointer]:
+        - /url: https://github.com/666ghj/MiroFish
+        - img [ref=e20]
+        - text: GitHub
+  - generic [ref=e22]:
+    - generic [ref=e24]:
+      - heading "Predict Anything" [level=1] [ref=e25]:
+        - text: Predict
+        - generic [ref=e26]:
+          - text: Anything
+          - img [ref=e27]
+      - paragraph [ref=e29]: The World's First Simple and Universal Open Source Swarm Intelligence Engine
+      - generic [ref=e30]:
+        - button "Try Live Demo" [ref=e31] [cursor=pointer]:
+          - generic [ref=e32]: Try Live Demo
+        - link "Star on GitHub" [ref=e33] [cursor=pointer]:
+          - /url: https://github.com/666ghj/MiroFish
+          - img [ref=e34]
+          - generic [ref=e36]: Star on GitHub
+      - generic [ref=e37]:
+        - heading "Join the waitlist to get notified at launch!" [level=2] [ref=e38]
+        - paragraph [ref=e39]: The ultimate online edition is on its way. Millions of intelligent agents effortlessly modeling reality and predicting anything.
+        - generic [ref=e41]:
+          - textbox "Enter your email" [ref=e42]
+          - button "Send" [ref=e43]
+    - img [ref=e45] [cursor=pointer]
+  - generic [ref=e48]:
+    - generic [ref=e49]:
+      - paragraph [ref=e50]: Demo Videos
+      - heading "Watch MiroFish in Action" [level=2] [ref=e51]
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - button "1 WHU Opinion Prediction Wuhan University public opinion prediction and MiroFish technical walkthrough" [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: "1"
+            - generic [ref=e57]: WHU Opinion Prediction
+          - paragraph [ref=e58]: Wuhan University public opinion prediction and MiroFish technical walkthrough
+        - button "2 Dream of the Red Chamber Predicting the lost ending of Dream of the Red Chamber based on the first 80 chapters" [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: "2"
+            - generic [ref=e62]: Dream of the Red Chamber
+          - paragraph [ref=e63]: Predicting the lost ending of Dream of the Red Chamber based on the first 80 chapters
+        - link "Watch full video on Bilibili ↗" [ref=e64] [cursor=pointer]:
+          - /url: https://www.bilibili.com/video/BV1VYBsBHEMY/
+      - generic [ref=e66]:
+        - iframe [ref=e67]:
+          - generic [ref=f1e6] [cursor=pointer]:
+            - generic [ref=f1e7]:
+              - generic:
+                - img
+            - generic [ref=f1e9]: 17:05
+            - img [ref=f1e10]
+        - link [ref=e68] [cursor=pointer]:
+          - /url: https://www.bilibili.com/video/BV1VYBsBHEMY/
+  - generic [ref=e70]:
+    - generic [ref=e71]:
+      - heading "Predict in 5 Steps" [level=2] [ref=e72]
+      - paragraph [ref=e73]: Built for universality and end-to-end automation. Compatible with virtually any analytical prediction task.
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic:
+          - img
+        - generic [ref=e76]: "01"
+        - heading "Graph Construction" [level=3] [ref=e77]
+        - paragraph [ref=e78]: Reality Seed Extraction & Individual and Collective Memory Injection & GraphRAG Construction
+      - generic [ref=e79]:
+        - generic:
+          - img
+        - generic [ref=e80]: "02"
+        - heading "Environment Setup" [level=3] [ref=e81]
+        - paragraph [ref=e82]: Entity Relationship Extraction & Persona Generation & Environment Config Agent Simulation Parameter Injection
+      - generic [ref=e83]:
+        - generic:
+          - img
+        - generic [ref=e84]: "03"
+        - heading "Start Simulation" [level=3] [ref=e85]
+        - paragraph [ref=e86]: Dual-Platform Parallel Simulation & Auto-Parse Prediction Requirements & Dynamic Temporal Memory Updates
+      - generic [ref=e87]:
+        - generic:
+          - img
+        - generic [ref=e88]: "04"
+        - heading "Report Generation" [level=3] [ref=e89]
+        - paragraph [ref=e90]: ReportAgent with a Rich Toolset Interacts Deeply with the Post-Simulation Environment
+      - generic [ref=e91]:
+        - generic:
+          - img
+        - generic [ref=e92]: "05"
+        - heading "Deep Interaction" [level=3] [ref=e93]
+        - paragraph [ref=e94]: Chat with Any Individual in the Simulated World & Converse with ReportAgent
+  - generic [ref=e96]:
+    - generic [ref=e97]:
+      - heading "Built for Every Scenario" [level=2] [ref=e98]
+      - paragraph [ref=e99]: From rigorous forecasting to playful simulation, we bring every "what if" to life.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - generic [ref=e103]: Finance / Investment
+        - heading "Financial Decision Support" [level=3] [ref=e104]
+        - paragraph [ref=e105]: Simulate investor sentiment shifts and behavioral decisions in financial markets for multidimensional strategy rehearsal
+      - generic [ref=e106]:
+        - generic [ref=e108]: Government / Think Tank
+        - heading "Policy Opinion Forecasting" [level=3] [ref=e109]
+        - paragraph [ref=e110]: Simulate public reactions before policy announcements to predict opinion trends and risk points across different groups
+      - generic [ref=e111]:
+        - generic [ref=e113]: Enterprise / PR
+        - heading "Crisis PR Simulation" [level=3] [ref=e114]
+        - paragraph [ref=e115]: Simulate how crisis events spread on social media, how public sentiment evolves, and how KOLs react to find the optimal response
+      - generic [ref=e116]:
+        - generic [ref=e118]: Brand / Marketing
+        - heading "Marketing Strategy Testing" [level=3] [ref=e119]
+        - paragraph [ref=e120]: Test the effectiveness of marketing strategies, user feedback and topic spread in a virtual social environment
+      - generic [ref=e121]:
+        - generic [ref=e123]: Entertainment / Creative
+        - heading "Story and Fiction Deduction" [level=3] [ref=e124]
+        - paragraph [ref=e125]: Build character worlds from novels and scripts, simulate plot developments, relationship dynamics and possible endings
+      - generic [ref=e126]:
+        - generic [ref=e128]: Academic / Research
+        - heading "Academic Research Support" [level=3] [ref=e129]
+        - paragraph [ref=e130]: Provide controlled social media simulation environments for social science research on information propagation and group behavior
+  - generic [ref=e132]:
+    - 'heading "About Us: Making Prediction of Anything Possible" [level=2] [ref=e133]'
+    - paragraph [ref=e134]: MiroFish is a next-generation AI prediction engine powered by multi-agent technology. It extracts seed information from the real world such as breaking news, policy drafts and financial signals, then automatically constructs a high-fidelity parallel digital world. Within this space, thousands of intelligent agents with independent personalities, long-term memory and behavioral logic freely interact and socially evolve. You can dynamically inject variables through a god's-eye view to precisely project future trajectories. The future is rehearsed in a digital sandbox so that decisions emerge victorious after hundreds of simulations.
+    - heading "How It Works" [level=3] [ref=e135]
+    - list [ref=e136]:
+      - listitem [ref=e137]:
+        - generic [ref=e138]: —
+        - text: You provide seed materials such as data analysis reports or interesting stories and describe your prediction needs in natural language.
+      - listitem [ref=e139]:
+        - generic [ref=e140]: —
+        - text: MiroFish returns a detailed prediction report and a deeply interactive high-fidelity digital world.
+    - heading "Our Vision" [level=3] [ref=e141]
+    - paragraph [ref=e142]: MiroFish is dedicated to building a swarm intelligence mirror that maps reality. By capturing emergent group behaviors sparked by individual interactions, it transcends the limits of traditional prediction.
+    - list [ref=e143]:
+      - listitem [ref=e144]:
+        - generic [ref=e145]: —
+        - text: At the macro level, we are a rehearsal lab for decision-makers, enabling policies and PR strategies to be stress-tested at zero risk.
+      - listitem [ref=e146]:
+        - generic [ref=e147]: —
+        - text: At the micro level, we are a creative sandbox for individuals. Whether predicting story endings or exploring wild ideas, it is all fun, playful and within reach.
+    - generic [ref=e148]:
+      - paragraph [ref=e149]: From rigorous forecasting to playful simulation,
+      - paragraph [ref=e150]: we bring every "what if" to life.
+  - generic [ref=e153]:
+    - generic [ref=e154]:
+      - img "MiroFish" [ref=e155]
+      - generic [ref=e156]: "|"
+      - link [ref=e157] [cursor=pointer]:
+        - /url: http://discord.gg/ePf5aPaHnA
+        - img [ref=e158]
+      - link [ref=e160] [cursor=pointer]:
+        - /url: https://x.com/mirofish_ai
+        - img [ref=e161]
+      - link [ref=e163] [cursor=pointer]:
+        - /url: https://www.instagram.com/mirofish_ai/
+        - img [ref=e164]
+    - link "Star on GitHub 48.3k" [ref=e167] [cursor=pointer]:
+      - /url: https://github.com/666ghj/MiroFish
+      - img [ref=e168]
+      - text: Star on GitHub
+      - generic [ref=e170]:
+        - img [ref=e171]
+        - text: 48.3k

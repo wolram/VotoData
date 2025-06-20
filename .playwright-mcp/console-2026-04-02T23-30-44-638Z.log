@@ -1,0 +1,4 @@
+[     457ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://static.cloudflareinsights.com/beacon.min.js:0
+[    1291ms] [LOG] [SVG Registry] Loaded 105 SVGs from manifest @ https://666ghj.github.io/mirofish-demo/assets/index-BU2YNSvF.js:6
+[    4084ms] [WARNING] The key "target-densitydpi" is not supported. @ https://www.bilibili.com/blackboard/html5mobileplayer.html?bvid=BV1VYBsBHEMY&high_quality=1&danmaku=0&hideCoverInfo=1&isOutside=true:3
+[    4766ms] [LOG] SecurityError: Failed to set a named property 'player' on 'Window': Blocked a frame with origin "https://www.bilibili.com" from accessing a cross-origin frame. @ https://www.bilibili.com/blackboard/html5mobileplayer.html?bvid=BV1VYBsBHEMY&high_quality=1&danmaku=0&hideCoverInfo=1&isOutside=true:238
