@@ -11,7 +11,6 @@ export const metadata: Metadata = {
 const monitoredAccounts = [
   { handle: "TSEjusbr", label: "@TSEjusbr" },
   { handle: "VotoData", label: "@VotoData" },
-  { handle: "staborges", label: "@staborges" },
 ];
 
 const hashtags = ["#eleições2026", "#TSE", "#UrnaEletrônica"];

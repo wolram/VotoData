@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { OrganizationJsonLd } from "./jsonld";
 import "./globals.css";
 
 const sohneVar = localFont({
@@ -35,15 +36,24 @@ const sohneMono = localFont({
   display: "swap",
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://votodata.com.br";
+
 export const metadata: Metadata = {
-  title: "VotoData — Inteligência Eleitoral em Escala",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "VotoData — Inteligência Eleitoral em Escala",
+    template: "%s — VotoData",
+  },
   description:
     "Plataforma de APIs, modelos preditivos e dados eleitorais do Brasil. Dados do TSE processados para ciência política, partidos e consultorias.",
   openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    siteName: "VotoData",
     title: "VotoData — Inteligência Eleitoral em Escala",
     description:
       "Plataforma de APIs, modelos preditivos e dados eleitorais do Brasil. Dados do TSE processados para ciência política, partidos e consultorias.",
-    images: ["/seo/dev_social.jpeg"],
+    images: [{ url: "/seo/dev_social.jpeg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
@@ -64,10 +74,13 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="pt-BR"
       className={`${sohneVar.variable} ${sohneMono.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        <OrganizationJsonLd />
+        {children}
+      </body>
     </html>
   );
 }

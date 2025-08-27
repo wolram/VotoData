@@ -135,7 +135,7 @@ function FeedRow({
       <button
         type="button"
         onClick={onToggle}
-        className="grid w-full grid-cols-[90px_1fr_100px_auto] items-center gap-4 py-3 min-h-[44px] text-mono-sm text-left cursor-pointer hover:bg-[var(--button-color)] transition-colors duration-150"
+        className="grid w-full grid-cols-[100px_1fr_110px_auto] items-center gap-6 py-4 min-h-[48px] text-mono-sm text-left cursor-pointer hover:bg-[var(--button-color)] transition-colors duration-150"
         aria-expanded={expanded}
       >
         <span>{item.date}</span>
@@ -247,7 +247,7 @@ export function FeedSection() {
         {/* Right content — table */}
         <div>
           {/* Table header */}
-          <div className="grid grid-cols-[90px_1fr_100px_auto] gap-4 border-b border-[var(--border-color-light)] pb-2 text-mono-sm uppercase">
+          <div className="grid grid-cols-[100px_1fr_110px_auto] gap-6 border-b border-[var(--border-color-light)] pb-3 text-mono-sm uppercase">
             <span>/ Data</span>
             <span>/ Nome</span>
             <span>/ Tipo</span>
