@@ -12,6 +12,9 @@ const tipoOptions = [
   "Outro",
 ] as const;
 
+const isDemoMode = process.env.NEXT_PUBLIC_DEMO_MODE === "true";
+const contactEmail = "contato@votodata.com.br";
+
 export default function ContatoPage() {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<{ success: boolean; message: string } | null>(null);
@@ -28,6 +31,21 @@ export default function ContatoPage() {
       tipo: (form.elements.namedItem("tipo") as HTMLSelectElement).value,
       mensagem: (form.elements.namedItem("mensagem") as HTMLTextAreaElement).value,
     };
+
+    if (isDemoMode) {
+      const subject = encodeURIComponent(`[VotoData Demo] ${data.tipo} — ${data.nome}`);
+      const body = encodeURIComponent(
+        `Nome: ${data.nome}\nEmail: ${data.email}\nTipo: ${data.tipo}\n\nMensagem:\n${data.mensagem}`,
+      );
+      window.location.href = `mailto:${contactEmail}?subject=${subject}&body=${body}`;
+      setResult({
+        success: true,
+        message:
+          "Demo em GitHub Pages: abrimos seu cliente de email para enviar a mensagem diretamente.",
+      });
+      setLoading(false);
+      return;
+    }
 
     try {
       const res = await fetch("/api/contato", {
@@ -62,6 +80,12 @@ export default function ContatoPage() {
         </div>
 
         <h1 className="text-section-heading">Contato</h1>
+
+        {isDemoMode ? (
+          <div className="mt-8 rounded-[2px] border border-[var(--border-color-light)] p-4 text-mono-sm">
+            Demo estática em GitHub Pages. O formulário abaixo abre seu cliente de email em vez de chamar a API server-side.
+          </div>
+        ) : null}
 
         <form onSubmit={handleSubmit} className="mt-10 flex flex-col gap-6">
           <div>
