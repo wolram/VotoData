@@ -43,25 +43,22 @@ const helpCards: HelpCard[] = [
 
 function TypewriterText({ text }: { text: string }) {
   const [visibleCount, setVisibleCount] = useState(0);
-  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(() =>
+    typeof window !== "undefined" ? window.matchMedia("(prefers-reduced-motion: reduce)").matches : false
+  );
 
   useEffect(() => {
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setPrefersReducedMotion(mq.matches);
     const handler = (e: MediaQueryListEvent) => setPrefersReducedMotion(e.matches);
     mq.addEventListener("change", handler);
     return () => mq.removeEventListener("change", handler);
   }, []);
 
   useEffect(() => {
-    if (!text.length) return;
-
-    if (prefersReducedMotion) {
-      setVisibleCount(text.length);
+    if (!text.length || prefersReducedMotion || visibleCount >= text.length) {
       return;
     }
 
-    setVisibleCount(0);
     const interval = setInterval(() => {
       setVisibleCount((prev) => {
         if (prev >= text.length) {
@@ -73,14 +70,19 @@ function TypewriterText({ text }: { text: string }) {
     }, 80);
 
     return () => clearInterval(interval);
-  }, [text, prefersReducedMotion]);
+  }, [text, prefersReducedMotion, visibleCount]);
 
   if (!text.length) return null;
 
   return (
     <span aria-label={text}>
-      {text.split("").map((char, i) => (
-        <span key={i} style={{ opacity: i < visibleCount ? 1 : 0 }} className="transition-opacity duration-75" aria-hidden="true">
+      {(prefersReducedMotion ? text : text.slice(0, visibleCount)).split("").map((char, i) => (
+        <span
+          key={i}
+          style={{ opacity: prefersReducedMotion || i < visibleCount ? 1 : 0 }}
+          className="transition-opacity duration-75"
+          aria-hidden="true"
+        >
           {char}
         </span>
       ))}
