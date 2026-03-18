@@ -1,119 +1,56 @@
-# VotoData
+<div align="center">
 
-Plataforma web da VotoData para inteligência eleitoral no Brasil.
+# VotoData — Brazilian Electoral Analytics
 
-O projeto apresenta a proposta de produto da VotoData: APIs eleitorais, datasets processados, modelos preditivos, pesquisa aplicada e fluxos de contato comercial. A experiência atual é uma aplicação Next.js com foco editorial e institucional, orientada a demonstrar capacidade analítica, ativos de pesquisa e casos de uso para campanhas, consultorias, pesquisadores e instituições.
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-## O que existe hoje
+**Electoral intelligence platform for Brazil — APIs, datasets, predictive models, and research workflows**
 
-- Home editorial com posicionamento de marca, destaques, feed e rotas para áreas do produto
-- Páginas de produto para `APIs`, `Dados`, `Modelos`, `Pesquisa`, `Casos`, `Notícias` e `Glossário`
-- Artigos longform sobre mercados de predição e simulação eleitoral
-- Formulário de contato com envio por API server-side
-- SEO básico com metadata, Open Graph, favicon e imagem social
+[Live →](https://wolram.github.io/votodata)
 
-## Stack
+</div>
 
-- Next.js 16
-- React 19
-- TypeScript strict
-- Tailwind CSS v4
-- `next/font/local` para tipografia local
-- Resend para envio do formulário de contato
+---
 
-## Rotas principais
+## Overview
 
-- `/` — landing page principal
-- `/apis` — visão de APIs eleitorais
-- `/dados` — visão de datasets processados
-- `/modelos` — visão de modelos preditivos
-- `/pesquisa` — pesquisa acadêmica e working papers
-- `/docs` — documentação da API em acesso antecipado
-- `/casos` — casos de uso
-- `/noticias` — notícias e updates
-- `/glossario` — glossário técnico
-- `/contato` — formulário comercial / suporte
-- `/api/contato` — endpoint POST para envio de mensagens
+VotoData turns raw TSE electoral data into actionable intelligence — serving campaigns, consultancies, researchers, and institutions with structured APIs, interactive visualizations, and predictive models.
 
-## Estrutura do projeto
+## Features
 
-```text
-src/
-  app/
-    api/contato/     # endpoint de envio do formulário
-    apis/            # página de APIs
-    blog/            # artigos e essays
-    casos/           # casos de uso
-    contato/         # formulário e metadata
-    dados/           # datasets
-    docs/            # documentação da API
-    glossario/       # glossário técnico
-    modelos/         # modelos preditivos
-    noticias/        # notícias / feed
-    pesquisa/        # research hub + papers
-  components/        # blocos reutilizáveis da interface
-  data/              # conteúdo estruturado, referências e glossário
-public/
-  fonts/             # fontes locais
-  seo/               # favicon e imagem social
-docs/
-  research/          # material de pesquisa e inspeção
-  design-references/ # capturas e referências visuais
-```
+- 📊 Interactive charts, maps, and drill-down analytics
+- 🗳️ Electoral APIs with structured TSE data
+- 🤖 Predictive models for electoral scenarios
+- 📰 Research papers and working papers
+- 🔍 Glossary and documentation
+- 📬 Commercial contact workflows
 
-## Desenvolvimento local
+## Routes
 
-1. Instale as dependências:
+| Route | Description |
+|---|---|
+| `/` | Editorial landing page |
+| `/apis` | Electoral API catalog |
+| `/dados` | Processed datasets |
+| `/modelos` | Predictive models |
+| `/pesquisa` | Academic research |
+| `/docs` | API documentation |
+| `/casos` | Use cases |
+| `/noticias` | News and updates |
 
-```bash
-npm install
-```
+## Tech Stack
 
-2. Suba o ambiente local:
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 16 · React 19 |
+| Language | TypeScript (strict) |
+| Styling | Tailwind CSS v4 |
+| Email | Resend |
+| Hosting | GitHub Pages / Vercel |
 
-```bash
-npm run dev
-```
+---
 
-3. Acesse:
-
-```text
-http://localhost:3000
-```
-
-## Scripts
-
-```bash
-npm run dev
-npm run build
-npm run start
-npm run lint
-npm run typecheck
-npm run check
-```
-
-## Variáveis de ambiente
-
-Para o formulário de contato funcionar de ponta a ponta, defina:
-
-```bash
-RESEND_API_KEY=...
-```
-
-Sem essa variável, a rota [`src/app/api/contato/route.ts`](/Users/wolram/Documents/GitHub/my-clone/src/app/api/contato/route.ts) não conseguirá enviar emails.
-
-## Direção de produto refletida no código
-
-- Dados eleitorais do TSE com processamento para uso analítico
-- Referências a integrações e curadoria sobre `CEPESPData` e `electionsBR`
-- Narrativa de produto voltada a predição, pesquisa aplicada e inteligência eleitoral
-- Páginas públicas que funcionam como vitrine comercial e editorial, enquanto docs e acesso à API ainda estão em modo de pré-lançamento
-
-## Observações
-
-- Este repositório não é mais o template original de clonagem de sites; o README antigo estava desatualizado em relação ao código atual.
-- Há artefatos de pesquisa em `docs/research/` herdados do processo de construção do site. Eles não definem o produto final e podem incluir material intermediário de inspeção.
-
-## Licença
-
-MIT
+*Part of [Marlow Sousa's portfolio](https://marlow.dev.br) · Built with Claude Code + Cursor*
